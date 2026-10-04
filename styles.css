@@ -24,3 +24,6 @@
 
 /* Place the mobile hero photo between the CTA and the three highlights. */
 @media(max-width:700px){.hero-image{width:100vw;margin:28px -7vw 0}.hero-tags{margin-top:0;padding-top:22px;padding-bottom:0}}
+
+/* Mobile hero: copy, photo, highlights, then the contact button. */
+@media(max-width:700px){.hero-inner{display:flex;flex-direction:column;align-items:flex-start}.hero-image{order:1}.hero-tags{order:2;width:100%}.hero-inner>.button{order:3;margin-top:24px;align-self:stretch}}
