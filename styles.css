@@ -21,3 +21,6 @@
   .product-photo{height:auto;aspect-ratio:3/2}
   .product-photo img{height:auto;object-fit:contain;object-position:center}
 }
+
+/* Place the mobile hero photo between the CTA and the three highlights. */
+@media(max-width:700px){.hero-image{width:100vw;margin:28px -7vw 0}.hero-tags{margin-top:0;padding-top:22px;padding-bottom:0}}
